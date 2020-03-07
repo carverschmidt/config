@@ -1,0 +1,9 @@
+startup_message off
+  
+# ` is screen key and `e types `
+escape `e
+
+# Window list at the bottom. hostname, centered tabs and redmarked active windows:
+hardstatus alwayslastline '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%? %= %{g}][%{B} %m/%d %{W}%c %{g}]'
+
+defscrollback 50000
